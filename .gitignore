@@ -1,0 +1,16 @@
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/spec/tmp/*
+/config/database.yml
+/nbproject/private/
+public/javascripts/cache
+/public/admin_exports
+/.idea
+/.rvmrc
+/.project
+/config/initializers/setup_mail.rb
+/pdfs/*
