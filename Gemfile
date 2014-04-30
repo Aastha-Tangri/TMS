@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.17'
 gem 'rails_admin'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'mysql'
 gem "devise"
 gem 'wisepdf'
@@ -33,6 +32,7 @@ gem "cucumber-rails", :group => :test, :require => false
 gem "capybara",:git => 'git://github.com/jnicklas/capybara.git',:group => [:development, :test]
 gem "launchy", :group => :test
 gem "database_cleaner",:group => [:development, :test]
+gem "pg",:group => :production
 
 
 # To use ActiveModel has_secure_password
