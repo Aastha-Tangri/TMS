@@ -4,4 +4,4 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-  User.create(email: 'aastha.tangri@trantorinc.com', password: 'test123', password_confirmation: 'test123', admin: true)
+  User.create(email: 'aastha.tangri@trantorinc.com', password: 'test123', password_confirmation: 'test123')

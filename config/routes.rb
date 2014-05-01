@@ -7,7 +7,7 @@ TrantorManagementSystem::Application.routes.draw do
 
   resources :document_templates, :documents
   match 'document' => 'document#document'
- match 'document/index' =>  'document#index'
+  match 'document/index' =>  'document#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
