@@ -8,7 +8,7 @@ class AdminMailer < ActionMailer::Base
    
     mail(:from => sender_email,
       :to => recipient_email,
-      :cc => "nidhi.ayri@trantorinc.com",
+      #:cc => "nidhi.ayri@trantorinc.com",
       :subject => email_subject,
       :body => email_body)
   end
