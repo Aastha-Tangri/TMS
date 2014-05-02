@@ -1,5 +1,5 @@
 require 'csv'
-require 'debugger'
+#require 'debugger'
 class DocumentController < ApplicationController
   def index
     @document_templates = DocumentTemplate.all

@@ -8,7 +8,6 @@ gem 'wisepdf'
 gem 'cancan'
 gem 'passenger'
 gem 'jquery-rails'
-gem 'debugger'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -20,6 +19,7 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'debugger'
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem "database_cleaner"
