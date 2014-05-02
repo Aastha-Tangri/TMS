@@ -1,5 +1,5 @@
 if Rails.env.staging? || Rails.env.production?
-  Wisepdf::Configuration.configure = {:exe_path => Rails.root.join('bin', 'wkhtmltopdf').to_s}
+  Wisepdf.config = {:exe_path => Rails.root.join('bin', 'wkhtmltopdf').to_s}
 else
   Wisepdf::Configuration.configure do |c|
     c.wkhtmltopdf = '/bin/wkhtmltopdf'
