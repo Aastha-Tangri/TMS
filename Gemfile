@@ -4,6 +4,7 @@ gem 'rails', '3.2.17'
 gem 'rails_admin'
 gem 'mysql'
 gem "devise"
+gem 'wisepdf'
 gem 'cancan'
 gem 'passenger'
 gem 'jquery-rails'
@@ -19,7 +20,6 @@ end
 
 group :development, :test do
   gem 'debugger'
-  gem 'wisepdf'
   gem "rspec-rails"
   gem "factory_girl_rails"
   gem "database_cleaner"
