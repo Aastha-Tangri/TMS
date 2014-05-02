@@ -1,5 +1,7 @@
 require 'csv'
 #require 'debugger'
+require 'wkhtmltopdf-heroku'
+
 class DocumentController < ApplicationController
   def index
     @document_templates = DocumentTemplate.all
